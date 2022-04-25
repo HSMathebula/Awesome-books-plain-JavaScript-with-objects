@@ -62,3 +62,28 @@ class Store {
     }
   }
 }
+
+// Event: Display Books
+document.addEventListener('DOMContentLoaded', UI.displayBooks);
+
+// Event: Add a Book
+document.querySelector('#add-book').addEventListener('submit', (e) => {
+  // Prevent actual submit
+  e.preventDefault();
+
+  // Get form values
+  const title = document.querySelector('#title').value;
+  const author = document.querySelector('#author').value;
+
+  // Instatiate book
+  const book = new Book(title, author);
+
+  // Add Book to UI
+  UI.addBookToList(book);
+
+  // Add book to store
+  Store.addBook(book);
+
+  // Clear fields
+  UI.clearFields();
+});
