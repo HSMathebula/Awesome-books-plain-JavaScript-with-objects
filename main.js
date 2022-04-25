@@ -31,7 +31,7 @@ class UI {
 
   static deleteBook(el) {
     if (el.classList.contains('delete')) {
-      el.parentElement.parentElement.remove();
+      el.parentElement.remove();
     }
   }
 
@@ -104,5 +104,5 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
   UI.deleteBook(e.target);
 
   // Remove book from store
-  Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
+  Store.removeBook(e.target.previousElementSibling.previousElementSibling.textContent);
 });
