@@ -19,11 +19,11 @@ class UI {
     const list = document.querySelector('#book-list');
 
     const bookDisplay = document.createElement('div');
-
+    bookDisplay.className = 'bookList1';
     bookDisplay.innerHTML = `
-        <p>${book.title}</p>
-        <p>${book.author}</p>
-        <button class="delete">Remove</button><hr>
+        <p class="bookTitle">${book.title}</p>
+        <p>by<span></span>${book.author}</p>
+        <button class="delete">Remove</button>
         `;
 
     list.appendChild(bookDisplay);

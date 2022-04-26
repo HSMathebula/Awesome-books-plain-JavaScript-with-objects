@@ -1,3 +1,52 @@
-form * {
-    display: block;
+body {
+  text-align: center;
+}
+
+.main-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.hr {
+  width: 100px;
+  border: 1px solid gray;
+}
+
+form {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: end;
+}
+
+#book-list {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 2px solid gray;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.bookTitle {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+span {
+  margin-right: 20px;
+}
+
+.bookList1 {
+  display: flex;
+  position: relative;
+}
+
+.bookList1:nth-child(even) { background: #ccc; }
+.bookList1:nth-child(odd) { background: #fff; }
+
+.delete {
+  position: absolute;
+  right: 20px;
+  top: 30%;
 }
