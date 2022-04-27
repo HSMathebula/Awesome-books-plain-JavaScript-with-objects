@@ -22,12 +22,15 @@ form {
   margin-top: 30px;
   margin-bottom: 30px;
   border: 2px solid gray;
+}
+
+.book-list-container {
   display: none;
 }
 
 input {
   margin-bottom: 10px;
-  width: 200px;
+  width: 300px;
   padding: 5px;
 }
 
@@ -70,6 +73,7 @@ nav {
   border: 2px solid gray;
   padding: 0 20px;
   align-items: center;
+  font-size: large;
 }
 
 .logo {
@@ -86,17 +90,29 @@ ul li {
   border-right: 2px solid gray;
   padding: 4px 0;
   padding-right: 10px;
+  cursor: pointer;
 }
 
 .contact {
   border: none;
 }
 
-.form-contaner {
+.form-container {
   display: none;
 }
 
-.current-date {
-  font-size: x-small;
-  text-align: end;
+#current-date {
+  font-size: small;
+  text-align: right;
+  font-weight: 600;
+}
+
+footer {
+  position: absolute;
+  border: 2px solid gray;
+  padding: 0 20px;
+  bottom: 2em;
+  width: 500px;
+  box-sizing: border-box;
+  text-align: start;
 }

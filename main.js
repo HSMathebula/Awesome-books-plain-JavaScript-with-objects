@@ -107,15 +107,28 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
   Store.removeBook(e.target.previousElementSibling.previousElementSibling.textContent);
 });
 
-document.getElementById("current-date").innerHTML = Date();
+const currentDate = new Date().toLocaleString();
+document.getElementById('current-date').innerHTML = currentDate;
 
-const bookList = document.querySelector('#book-list');
+// display the books list when click the button "List"
+const bookList = document.querySelector('.book-list-container');
 const listBtn = document.querySelector('.listBtn');
 
 listBtn.addEventListener('click', () => {
   bookList.style.display = 'block';
+  formContainer.style.display = 'none';
 });
 
 window.addEventListener('load', () => {
   bookList.style.display = 'block';
+  formContainer.style.display = 'none';
+});
+
+// display the Add book form  when click the button "Add new"
+const formContainer = document.querySelector('.form-container');
+const addNewBtn = document.querySelector('.add-new-btn');
+
+addNewBtn.addEventListener('click', () => {
+  bookList.style.display = 'none';
+  formContainer.style.display = 'block';
 });
