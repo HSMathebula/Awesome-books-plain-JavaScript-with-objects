@@ -93,6 +93,11 @@ nav ul li {
   cursor: pointer;
 }
 
+.contact-info p,
+.contact-info li {
+  text-align: start;
+}
+
 nav li:hover {
   color: blue;
 }
@@ -124,8 +129,4 @@ footer {
 .contact-info {
   display: none;
   font-size: large;
-}
-.contact-info p,
-.contact-info li {
-  text-align: start;
 }
