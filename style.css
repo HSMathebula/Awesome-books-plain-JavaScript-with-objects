@@ -26,15 +26,17 @@ form {
 
 input {
   margin-bottom: 10px;
+  width: 200px;
+  padding: 5px;
 }
 
 .bookTitle {
-  margin-right: 20px;
+  margin-right: 10px;
   margin-left: 20px;
 }
 
 span {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .bookList1 {
@@ -42,11 +44,20 @@ span {
   position: relative;
 }
 
-.bookList1:nth-child(even) { background: #ccc; }
-.bookList1:nth-child(odd) { background: #fff; }
+.bookList1:nth-child(even) {
+  background: #ccc;
+}
+
+.bookList1:nth-child(odd) {
+  background: #fff;
+}
 
 .delete {
   position: absolute;
   right: 20px;
-  top: 30%;
+  top: 20%;
+}
+
+button {
+  padding: 5px;
 }
