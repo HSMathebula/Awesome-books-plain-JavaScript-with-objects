@@ -80,17 +80,21 @@ nav {
   margin: 0;
 }
 
-ul {
+nav ul {
   display: flex;
 }
 
-ul li {
+nav ul li {
   list-style: none;
   margin-left: 10px;
   border-right: 2px solid gray;
   padding: 4px 0;
   padding-right: 10px;
   cursor: pointer;
+}
+
+nav li:hover {
+  color: blue;
 }
 
 .contact {
@@ -114,5 +118,14 @@ footer {
   bottom: 2em;
   width: 500px;
   box-sizing: border-box;
+  text-align: start;
+}
+
+.contact-info {
+  display: none;
+  font-size: large;
+}
+.contact-info p,
+.contact-info li {
   text-align: start;
 }

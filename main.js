@@ -122,6 +122,7 @@ listBtn.addEventListener('click', () => {
 window.addEventListener('load', () => {
   bookList.style.display = 'block';
   formContainer.style.display = 'none';
+  contactInfo.style.display = 'none';
 });
 
 // display the Add book form  when click the button "Add new"
@@ -131,4 +132,15 @@ const addNewBtn = document.querySelector('.add-new-btn');
 addNewBtn.addEventListener('click', () => {
   bookList.style.display = 'none';
   formContainer.style.display = 'block';
+  contactInfo.style.display = 'none';
+});
+
+// display the Add book form  when click the button "Contact"
+const contactBtn = document.querySelector('.contact');
+const contactInfo = document.querySelector('.contact-info');
+
+contactBtn.addEventListener('click', () => {
+  bookList.style.display = 'none';
+  formContainer.style.display = 'none';
+  contactInfo.style.display = 'block';
 });
