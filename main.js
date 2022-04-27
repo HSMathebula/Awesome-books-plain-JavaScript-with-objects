@@ -21,7 +21,7 @@ class UI {
     const bookDisplay = document.createElement('div');
     bookDisplay.className = 'bookList1';
     bookDisplay.innerHTML = `
-        <p class="bookTitle"><b>" ${book.title} "</b></p>
+        <p class="bookTitle"><b>${book.title}</b></p>
         <p>by<span></span><b>${book.author}.</b></p>
         <button class="delete">Remove</button>
         `;
