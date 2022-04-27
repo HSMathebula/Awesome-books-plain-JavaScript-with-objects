@@ -22,6 +22,7 @@ form {
   margin-top: 30px;
   margin-bottom: 30px;
   border: 2px solid gray;
+  display: none;
 }
 
 input {
@@ -60,4 +61,42 @@ span {
 
 button {
   padding: 5px;
+}
+
+/* nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid gray;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 10px;
+  border-right: 2px solid gray;
+  padding: 4px 0;
+  padding-right: 10px;
+}
+
+.contact {
+  border: none;
+}
+
+.form-contaner {
+  display: none;
+}
+
+.current-date {
+  font-size: x-small;
+  text-align: end;
 }

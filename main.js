@@ -106,3 +106,16 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
   // Remove book from store
   Store.removeBook(e.target.previousElementSibling.previousElementSibling.textContent);
 });
+
+document.getElementById("current-date").innerHTML = Date();
+
+const bookList = document.querySelector('#book-list');
+const listBtn = document.querySelector('.listBtn');
+
+listBtn.addEventListener('click', () => {
+  bookList.style.display = 'block';
+});
+
+window.addEventListener('load', () => {
+  bookList.style.display = 'block';
+});
