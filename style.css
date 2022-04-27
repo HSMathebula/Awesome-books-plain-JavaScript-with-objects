@@ -47,6 +47,7 @@ span {
 .bookList1:nth-child(even) {
   background: #ccc;
 }
+
 .bookList1:nth-child(odd) {
   background: #fff;
 }
