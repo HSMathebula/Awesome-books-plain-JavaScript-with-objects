@@ -62,9 +62,14 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@HSMathebula](https://github.com/HSMathebula)
 - LinkedIn: [@HSmathebula](https://www.linkedin.com/in/happen-mathebula-4b0438115/)
 
-👤 **KHITER Mohamed Achraf**
+👤 **Achraf KHITER**
 
-- GitHub: [@githubhandle](https://github.com/khitermedachraf)
+- GitHub: [![GitHub Badge](https://img.shields.io/badge/-khitermedachraf-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/khitermedachraf/)
+- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-khitermed-white?logo=LinkedIn&logoColor=0A66C2&style=plastic)](https://www.linkedin.com/in/khitermed/)
+- Gmail: [![Gmail Badge](https://img.shields.io/badge/-@khiter.med7@gmail.com-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:@khiter.med7@gmail.com)
+- Twitter: [![Twitter Badge](https://img.shields.io/badge/-@AchrafKhiter-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/AchrafKhiter)
+- Instagram: [![Instagram Badge](https://img.shields.io/badge/-@khitermed-white?logo=Instagram&logoColor=bc2a8d&style=plastic)](https://www.instagram.com/khitermed07/)
+- Facebook: [![Facebook Badge](https://img.shields.io/badge/-Achraf--KHITER-white?logo=Facebook&logoColor=1877F2&style=plastic)](https://www.facebook.com/achraf.khiter.750/)
 
 ## 🤝 Contributing
 
